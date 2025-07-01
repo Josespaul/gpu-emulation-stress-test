@@ -77,6 +77,7 @@ public:
 
         mKeyframes.push_back(kf);
         refresh();
+        //refresh and sync clear
     }
 
     float evalAtFrame(int frame, bool normalized);
